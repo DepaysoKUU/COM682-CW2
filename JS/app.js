@@ -1,5 +1,5 @@
 //The URIs of the REST endpoint
-POST = "https://prod-18.uksouth.logic.azure.com:443/workflows/fc9b7a95cd9447b9a3437315c6f74c0e/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=xZvzBLxYXQSsKodkgOvu87bg-oxKnkbd301AzMzRkU0";
+POST = "https://prod-24.uksouth.logic.azure.com:443/workflows/bae358fbbbd54c2e89764542b2a8e243/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=JHxzsobTTeHaSTWXQjRleJ9gIY15WnMcqMc2-Fzb2ag";
 GET_ALL = "https://prod-07.uksouth.logic.azure.com/workflows/e5fdd07148c5425fa4b0d297c225fcd4/triggers/When_a_HTTP_request_is_received/paths/invoke/gotv/highlights?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=C5G5uL2_kpLwdEg_-Y4OcAm4X_ua95NIahzaRHvbt1E"
 DELETE = "https://prod-19.uksouth.logic.azure.com/workflows/d55d7557d4724df9a054306b1f966f96/triggers/When_a_HTTP_request_is_received/paths/invoke/goth/hightlights/%7Bid%7D?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=fGFN7FTzgjrLGbzmSXZPDSScnBa7QOFWxV0EqsCNkG8"
 
