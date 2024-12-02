@@ -1,4 +1,4 @@
-//The URIs of the REST endpoint
+
 POST = "https://prod-24.uksouth.logic.azure.com:443/workflows/bae358fbbbd54c2e89764542b2a8e243/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=JHxzsobTTeHaSTWXQjRleJ9gIY15WnMcqMc2-Fzb2ag";
 GET_ALL = "https://prod-07.uksouth.logic.azure.com/workflows/e5fdd07148c5425fa4b0d297c225fcd4/triggers/When_a_HTTP_request_is_received/paths/invoke/gotv/highlights?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=C5G5uL2_kpLwdEg_-Y4OcAm4X_ua95NIahzaRHvbt1E"
 DELETE = "https://prod-19.uksouth.logic.azure.com/workflows/d55d7557d4724df9a054306b1f966f96/triggers/When_a_HTTP_request_is_received/paths/invoke/goth/hightlights/%7Bid%7D?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=fGFN7FTzgjrLGbzmSXZPDSScnBa7QOFWxV0EqsCNkG8"
@@ -8,24 +8,24 @@ BLOB_ACCOUNT = "https://depaysokblob.blob.core.windows.net";
 //Handlers for button clicks
 $(document).ready(function() {
 
- 
+
   $("#retImages").click(function(){
 
       //Run the get asset list function
       getImages();
 
-  }); 
+  });
 
    //Handler for the new asset submission button
   $("#subNewForm").click(function(){
 
     //Execute the submit new asset function
     submitNewAsset();
-    
-  }); 
+
+  });
 });
 
-//A function to submit a new asset to the REST endpoint 
+//A function to submit a new asset to the REST endpoint
 function submitNewAsset(){
 
   const file = $("#UpFile")[0].files[0]; // Get the uploaded file
@@ -96,7 +96,7 @@ function getImages(){
       }).appendTo( "#ImageList" );
 
   });
- 
+
 }
 
 function deleteItem(cosmosid){
